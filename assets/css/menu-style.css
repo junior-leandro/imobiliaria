@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --font:'Roboto', sans-serif;
+    --cor-do-menu: #001245;
+}
+
+
+
+.nav-menu {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between
+}
+.menu-topo{
+    margin-right: 100px;
+}
+.logo-topo{
+    height: 130px;
+    margin: 5px 20px 0 20px;
+}
+
+.menu-item {
+    font-family: var(--font);
+    font-weight: 700;
+    list-style: none;
+    margin: 8px;
+    display: inline;
+
+}
+
+.menu-item a {
+    text-decoration: none;
+    color:var(--cor-do-menu)
+}
