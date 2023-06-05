@@ -1,12 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-:root {
-    --font:'Roboto', sans-serif;
-    --cor-do-menu: #001245;
-}
-
-
-
 .nav-menu {
     display: flex;
     align-items: baseline;
@@ -31,5 +22,6 @@
 
 .menu-item a {
     text-decoration: none;
-    color:var(--cor-do-menu)
+    color:var(--cor-azul)
 }
+
