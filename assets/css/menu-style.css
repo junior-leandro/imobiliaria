@@ -19,7 +19,13 @@
     display: inline;
 
 }
-
+.imoveis {
+    font-size: 22px;
+    text-decoration: underline;
+}
+.imoveis:hover{
+    font-size: 24px;
+}
 .menu-item a {
     text-decoration: none;
     color:var(--cor-azul)
