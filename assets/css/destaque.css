@@ -28,7 +28,7 @@
 }
 
 .sobre-left {
-    width: 40%;    
+    width: 50%;    
     text-align: center;
     padding-left: 5em;
 }
@@ -51,4 +51,18 @@
 }
 .persona {
     margin: 2em auto 0 auto;
+}
+
+@media screen and (max-width: 375px) {
+    .sobre {
+        flex-direction: column;
+    }
+
+    .sobre-left , .sobre-rigth {
+        width: 100%;
+    }
+    .persona {
+        margin: auto;
+        width: 300px
+    }
 }

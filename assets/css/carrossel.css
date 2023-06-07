@@ -1,5 +1,5 @@
 .section-carrossel {
-    width: 100%;
+    width: 100vw;
     height: 30em;
     display: flex;
     justify-content: center;
@@ -16,6 +16,7 @@ h2 {
 }
 .foto-carrossel {
     width: 300px;
+    margin: auto .1em;
 }
 .reservar {
     width: 250px;
@@ -23,3 +24,9 @@ h2 {
     background-color: var(--cor-azul);
     color: var(--cor-branco);
 }
+
+@media screen and (max-width: 375px) {
+    .foto-carrossel{
+        width: 80px;
+    }
+  }

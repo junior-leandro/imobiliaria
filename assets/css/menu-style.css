@@ -29,4 +29,13 @@
     text-decoration: none;
     color:var(--cor-azul)
 }
-
+@media screen and (max-width: 375px) {
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }    
+    .menu-topo{
+        margin:auto;
+    }
+}
