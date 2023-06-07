@@ -18,17 +18,30 @@
 
 .informacoes{
     text-align: left;
-    font-size: 24px;
+    font-size: 30px;
+    font-weight: 700;
     margin-bottom: 1em;
 }
 
 .info-item{
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: .3em;
     font-family: var(--font);
     color: var(--cor-azul);
 }
+.info-item a{
+    text-decoration: none;
+    color: var(--cor-azul);
 
+}
 
+.info-icon{
+    padding-left: .4em;
+}
+.info-lugar{
+    padding-left: .2em;
+}
 
 
 
