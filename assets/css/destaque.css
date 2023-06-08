@@ -19,7 +19,7 @@
 
 .sobre {
     display: flex;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
     align-items: center;
     background-color: rgb(58, 58, 58);

@@ -1,6 +1,6 @@
 .section-carrossel {
     width: 100vw;
-    height: 35em;
+    height: 52em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,17 +8,74 @@
 }
 h2 {
     font-size: 33px;
-    margin-top: 2em;
+    margin: 2em auto;
 }
 
 .reservar {
-    width: 250px;
-    height: 45px;
+    width: 300px;
+    height: 70px;
+    margin: 2em auto;
     background-color: var(--cor-azul);
     color: var(--cor-branco);
 }
 
-/* BEGGIN CARROSSEL */
+/*Begin carrossel */
+
+.slider {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.slider .slide-track {
+  display: flex;
+  animation: scroll 30s linear infinite;
+  -webkit-animation: scroll 30s linear infinite;
+  width: calc(700px * 12);
+}
+.slider:hover ,  .slide-track:hover {
+  animation-play-state: paused;
+}
+
+.slider .slide {
+  width: 750px;
+  margin: auto 10px;
+}
+.slide img {
+  width: 700px;
+  border-radius: 8px;
+}
+
+.slide img:hover {
+  border: 1px solid var(--cor-azul);
+}
+.slider a{
+  text-decoration: none;
+}
+.slide_desc {
+  text-align: center;
+  color: #000000;
+  margin: 1em auto;
+}
+
+@keyframes scroll {
+  0% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+  }
+  100% {
+      -webkit-transform: translateX(calc(-720px * 6));
+      transform: translateX(calc(-720px * 6));
+  }
+}
+
+
+
+
+
+
+/* BEGGIN OLD CARROSSEL 
 
   
   .gallery-wrapper {
@@ -120,7 +177,7 @@ h2 {
 
 
 
-  /*
+
 
 @media screen and (max-width: 375px) {
     .foto-carrossel{

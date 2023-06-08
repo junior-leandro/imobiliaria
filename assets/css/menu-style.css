@@ -25,8 +25,12 @@
 
 }
 
-.imoveis:hover{
-    font-size: 24px;
+.menu-item:hover{
+    font-size: 19px;
+    background-color: #eeeeee;
+    text-decoration: underline;
+    border-radius: 10px;
+    padding: .3em;
 }
 .menu-item a {
     text-decoration: none;
