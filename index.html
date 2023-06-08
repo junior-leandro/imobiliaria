@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,16 +15,17 @@
     <link rel="stylesheet" href="/assets/css/destaque.css">
     <link rel="stylesheet" href="/assets/css/footer.css">
 
-    
+
     <script src="https://kit.fontawesome.com/8d1641c113.js" crossorigin="anonymous"></script>
-    
+
     <title>Company Name</title>
 </head>
+
 <body>
     <header>
         <section class="nav-menu">
             <img src="/assets/img/logo1.png" class="logo-topo" alt="logo da emppresa">
-            <i id="burger" class="fa-solid fa-bars" onclick="clickMenu()" ></i>
+            <i id="burger" class="fa-solid fa-bars" onclick="clickMenu()"></i>
             <menu id="itens">
                 <ul class="menu-topo">
                     <li class="menu-item inicio"><a href="#">Inicio</a></li>
@@ -39,7 +41,8 @@
         <section class="banner">
             <div class="content-banner">
                 <h1 class="titulo-banner">Administração de imóveis <br> para locação por temporada</h1>
-                <p class="texto-banner">A <strong>Company Name</strong> é uma imobiliária especializada na administração de imóveis para locação por temporada.</p>
+                <p class="texto-banner">A <strong>Company Name</strong> é uma imobiliária especializada na administração
+                    de imóveis para locação por temporada.</p>
                 <div class="botoes">
                     <button class="botao encontre-imovel">Encontre um imóvel</button>
                     <button class="botao alugue-imovel">Quero alugar meu imóvel</button>
@@ -48,12 +51,46 @@
         </section>
         <section class="section-carrossel">
             <h2> Conheça alguns dos imoveis que administramos e faça a sua reserva</h2>
-            <div class="carrossel">
-                <img src="/assets/img/img1.jpg" alt="" class="foto-carrossel">
-                <img src="/assets/img/img2.jpg" alt="" class="foto-carrossel">
-                <img src="/assets/img/img3.jpg" alt="" class="foto-carrossel">
-                <img src="/assets/img/img1.jpg" alt="" class="foto-carrossel">
+            
+            <div class="gallery-wrapper">
+                <div class="gallery">
+
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+
+                    <div class="slide first">
+                        <a href="#">
+                            <img src="/assets/img/img1.jpg" alt="imagem da casa x no bairro y" class="item">
+                        </a>
+                    </div>
+                    <div class="slide">
+                        <img src="/assets/img/img2.jpg" alt="imagem da casa x no bairro y" class="item">
+                    </div>
+                    <div class="slide">
+                        <img src="/assets/img/img3.jpg" alt="imagem da casa x no bairro y" class="item">
+                    </div>
+                    <div class="slide">
+                        <img src="/assets/img/img1.jpg" alt="imagem da casa x no bairro y" class="item">
+                    </div class="slide">
+                    
+                    </div>
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                </div>
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
             </div>
+
             <button class="botao reservar">Clique aqui para reservar</button>
         </section>
 
@@ -64,15 +101,22 @@
         <section class="sobre">
             <div class="sobre-left">
                 <h2>Quem Somos</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet nunc nec lectus iaculis ullamcorper. 
-                    Donec tellus mi, gravida quis pellentesque quis, finibus sit amet purus. Cras ornare lobortis nunc. 
-                    Integer ac nunc bibendum, interdum elit quis, dapibus augue. Aliquam finibus quam diam, et fermentum lacus bibendum vel.<br><br> 
-                    Proin viverra, risus et venenatis facilisis, dolor orci auctor turpis, quis maximus orci nisl congue ex. 
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet nunc nec lectus iaculis
+                    ullamcorper.
+                    Donec tellus mi, gravida quis pellentesque quis, finibus sit amet purus. Cras ornare lobortis nunc.
+                    Integer ac nunc bibendum, interdum elit quis, dapibus augue. Aliquam finibus quam diam, et fermentum
+                    lacus bibendum vel.<br><br>
+                    Proin viverra, risus et venenatis facilisis, dolor orci auctor turpis, quis maximus orci nisl congue
+                    ex.
                     Sed tincidunt ut risus ut ornare. Cras consectetur porta dui nec bibendum
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet nunc nec lectus iaculis ullamcorper. 
-                    Donec tellus mi, gravida quis pellentesque quis, finibus sit amet purus. Cras ornare lobortis nunc. <br><br>
-                    Integer ac nunc bibendum, interdum elit quis, dapibus augue. Aliquam finibus quam diam, et fermentum lacus bibendum vel. 
-                    Proin viverra, risus et venenatis facilisis, dolor orci auctor turpis, quis maximus orci nisl congue ex. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet nunc nec lectus iaculis
+                    ullamcorper.
+                    Donec tellus mi, gravida quis pellentesque quis, finibus sit amet purus. Cras ornare lobortis nunc.
+                    <br><br>
+                    Integer ac nunc bibendum, interdum elit quis, dapibus augue. Aliquam finibus quam diam, et fermentum
+                    lacus bibendum vel.
+                    Proin viverra, risus et venenatis facilisis, dolor orci auctor turpis, quis maximus orci nisl congue
+                    ex.
                     Sed tincidunt ut risus ut ornare. Cras consectetur porta dui nec bibendum.</p>
 
             </div>
@@ -80,9 +124,9 @@
                 <img src="/assets/img/persona.png" alt="" class="persona">
             </div>
         </section>
-        
+
     </main>
-    
+
     <footer>
         <div class="rodape">
             <div class="conteudo-rodape logo-rodape"><img src="/assets/img/logo1.png" alt=""></div>
@@ -121,9 +165,11 @@
             </div>
         </div>
         <div class="copyrigth">
-            <p>Company Name © 2023 | Todos Direitos Reservados.  |  Desenvolvido por junior.dev.br</p>
+            <p>Company Name © 2023 | Todos Direitos Reservados. | Desenvolvido por junior.dev.br</p>
         </div>
     </footer>
     <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/carrossel.js"></script>
 </body>
+
 </html>
