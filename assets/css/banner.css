@@ -60,3 +60,30 @@ strong {
     width: 240px;
    
 }
+
+
+
+
+@media screen and (max-width: 375px) {
+
+
+    .titulo-banner {
+        font-size: 27px;
+    }
+    .texto-banner {
+        width: 100vw;
+        line-height: 1.3em;
+        font-size: 14px;
+        margin: auto auto 3em auto;
+    }
+
+    .botoes {
+        flex-direction: column;
+        text-align: center;
+        width: 100vw;
+        margin-bottom: 16em;
+    }
+    .botao{
+        margin: .8EM;
+    }
+}

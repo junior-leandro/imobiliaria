@@ -23,12 +23,15 @@
     <header>
         <section class="nav-menu">
             <img src="/assets/img/logo1.png" class="logo-topo" alt="logo da emppresa">
-            <ul class="menu-topo">
-                <li class="menu-item inicio"><a href="#">Inicio</a></li>
-                <li class="menu-item alugar"><a href="#">Quero Alugar Meu Imóvel</a></li>
-                <li class="menu-item contato"><a href="#">Contato</a></li>
-                <li class="menu-item imoveis"><a href="#">Imóveis Disponiveis</a></li>
-            </ul>
+            <i id="burger" class="fa-solid fa-bars" onclick="clickMenu()" ></i>
+            <menu id="itens">
+                <ul class="menu-topo">
+                    <li class="menu-item inicio"><a href="#">Inicio</a></li>
+                    <li class="menu-item alugar"><a href="#">Quero Alugar Meu Imóvel</a></li>
+                    <li class="menu-item contato"><a href="#">Contato</a></li>
+                    <li class="menu-item imoveis"><a href="#">Imóveis Disponiveis</a></li>
+                </ul>
+            </menu>
         </section>
     </header>
 
@@ -36,7 +39,7 @@
         <section class="banner">
             <div class="content-banner">
                 <h1 class="titulo-banner">Administração de imóveis <br> para locação por temporada</h1>
-                <p class="texto-banner">A <strong>Company Name</strong> é uma imobiliária especializada na administração <br> de imóveis para locação por temporada.</p>
+                <p class="texto-banner">A <strong>Company Name</strong> é uma imobiliária especializada na administração de imóveis para locação por temporada.</p>
                 <div class="botoes">
                     <button class="botao encontre-imovel">Encontre um imóvel</button>
                     <button class="botao alugue-imovel">Quero alugar meu imóvel</button>

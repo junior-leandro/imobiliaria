@@ -61,3 +61,40 @@
     color: var(--cor-branco);
     padding-top: .5em;
 }
+
+
+@media screen and (max-width: 768px) {
+    .info-item{
+        font-size: 15px;
+    }
+    .logo-rodape img{
+        height: 200px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .rodape {
+        flex-direction: column;
+        text-align: left;
+        height: 400px;
+    }
+
+    .conteudo-rodape{
+        width: 90%;
+    }
+    .logo-rodape img{
+        height: 120px;
+        margin-left: -25px;
+    }
+    .info-item{
+        text-align: left;
+    }
+    .copyrigth{
+        height: 50px;
+        font-size: 10px;
+    }
+    .copyrigth p {
+     padding-top: 1em;
+    }
+
+}
+

@@ -29,4 +29,15 @@ h2 {
     .foto-carrossel{
         width: 80px;
     }
-  }
+}
+
+@media screen and (max-width: 768px) {
+    .foto-carrossel{
+        width: 80px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .foto-carrossel{
+        width: 80px;
+    }
+}

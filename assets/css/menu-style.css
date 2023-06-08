@@ -3,8 +3,13 @@
     align-items: baseline;
     justify-content: space-between
 }
+
 .menu-topo{
     margin-right: 100px;
+}
+
+#burger {
+    display: none;
 }
 .logo-topo{
     height: 130px;
@@ -19,9 +24,7 @@
     display: inline;
 
 }
-.imoveis {
-    text-decoration: underline;
-}
+
 .imoveis:hover{
     font-size: 24px;
 }
@@ -29,13 +32,40 @@
     text-decoration: none;
     color:var(--cor-azul)
 }
+
+@media screen and (max-width: 768px) {
+    .menu-item{
+        font-size: 12px;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .nav-menu {
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }    
-    .menu-topo{
-        margin:auto;
+    #itens {
+        display: none;
+        padding-bottom: 2em;
+    }
+   
+    .menu-item{
+        display: block;
+        text-align: right;
+        font-size: 20px;
+        margin-right: -200px;
+
+    }
+    #burger {
+        display: block;
+        width: 100vw;
+        padding: 20px;
+        text-align: right;
+        margin-right: 1em;
+        font-size: 30px;
     }
 }
+
+
+

@@ -19,12 +19,12 @@
 
 .sobre {
     display: flex;
-    width: 100%;
+    width: 100vw;
     justify-content: center;
     align-items: center;
     background-color: rgb(58, 58, 58);
     
-    
+
 }
 
 .sobre-left {
@@ -53,16 +53,31 @@
     margin: 2em auto 0 auto;
 }
 
+
+@media screen and (max-width: 768px) {
+    .sobre {
+        flex-direction: column;
+    }
+    .sobre-left, .sobre-rigth {
+        width: 90%;
+        padding: 0;
+    }
+    
+    .persona {
+        width: 400px
+    }
+}
+
 @media screen and (max-width: 375px) {
     .sobre {
         flex-direction: column;
     }
-
-    .sobre-left , .sobre-rigth {
-        width: 100%;
+    .sobre-left, .sobre-rigth {
+        width: 90%;
+        padding: 0;
     }
+    
     .persona {
-        margin: auto;
-        width: 300px
+        width: 300px;
     }
 }
