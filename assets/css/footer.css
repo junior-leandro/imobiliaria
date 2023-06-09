@@ -62,6 +62,12 @@
     padding-top: .5em;
 }
 
+.junior-dev{
+    text-decoration: none;
+    color: var(--cor-branco);
+    font-weight: 700;
+}
+
 
 @media screen and (max-width: 768px) {
     .info-item{
@@ -70,6 +76,32 @@
     .logo-rodape img{
         height: 200px;
     }
+}
+@media screen and (max-width: 425px) {
+    .rodape {
+        flex-direction: column;
+        text-align: left;
+        height: 400px;
+    }
+
+    .conteudo-rodape{
+        width: 90%;
+    }
+    .logo-rodape img{
+        height: 120px;
+        margin-left: -25px;
+    }
+    .info-item{
+        text-align: left;
+    }
+    .copyrigth{
+        height: 50px;
+        font-size: 10px;
+    }
+    .copyrigth p {
+     padding-top: 1em;
+    }
+
 }
 @media screen and (max-width: 375px) {
     .rodape {

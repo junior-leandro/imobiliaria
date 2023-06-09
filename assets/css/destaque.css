@@ -30,7 +30,7 @@
 .sobre-left {
     width: 50%;    
     text-align: center;
-    padding-left: 5em;
+    padding-left: 2em;
 }
 .sobre-left p, .sobre-left h2 {
     text-align: justify;
@@ -38,7 +38,7 @@
 }
 
 .sobre-left h2 {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     font-size: 40px;
 }
 .sobre-left p {

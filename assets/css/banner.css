@@ -21,6 +21,7 @@ strong {
     align-items: center;
 }
 .titulo-banner {
+    width: 40vw;
     font-weight: 700;
     font-size: 42px;
     margin-bottom: 0.5em;
@@ -61,14 +62,45 @@ strong {
    
 }
 
+@media screen and (max-width: 1024px){
+    .titulo-banner{
+        width: 55vw;
+    }
+}
+@media screen and (max-width: 768px){
+    .titulo-banner{
+        width: 90vw;
+    }
+}
+@media screen and (max-width: 425px){
+    .titulo-banner {
+        font-size: 27px;
+        width: 85vw;
+    }
+    .texto-banner {
+        width: 90vw;
+        line-height: 1.3em;
+        font-size: 14px;
+        margin: auto auto 3em auto;
+    }
 
-
+    .botoes {
+        flex-direction: column;
+        text-align: center;
+        width: 100vw;
+        margin-bottom: 16em;
+    }
+    .botao{
+        margin: .8EM;
+    }
+}
 
 @media screen and (max-width: 375px) {
 
 
     .titulo-banner {
         font-size: 27px;
+        width: 100vw;
     }
     .texto-banner {
         width: 100vw;
@@ -87,3 +119,4 @@ strong {
         margin: .8EM;
     }
 }
+
